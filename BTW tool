@@ -1,0 +1,32 @@
+var bedrag
+function herhalingBedrag() {
+    return "Dit is het bedrag: € " + bedrag;
+};
+
+function alleenBTW() {
+    return "De btw van het bedrag: € " + bedrag * 0.21;
+};
+
+function bedragEnBTW() {
+    return "Het bedrag met BTW: € " + bedrag * 1.21;
+};
+
+function berekenBTW() {
+    bedrag = prompt("Vul hier in, het bedrag waar van je de btw wilt weten");
+    alert(herhalingBedrag() + '\n' + alleenBTW() + '\n' + bedragEnBTW());
+};
+
+
+function runOrNot()
+{
+   if(bedrag == false){5*5}
+   else {
+       berekenBTW()
+        };
+};
+
+
+do{
+    runOrNot()
+    }
+while(bedrag !== false)
