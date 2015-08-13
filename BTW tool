@@ -1,4 +1,5 @@
 var bedrag
+
 function herhalingBedrag() {
     return "Dit is het bedrag: € " + bedrag;
 };
@@ -11,22 +12,18 @@ function bedragEnBTW() {
     return "Het bedrag met BTW: € " + bedrag * 1.21;
 };
 
+
+
 function berekenBTW() {
-    bedrag = prompt("Vul hier in, het bedrag waar van je de btw wilt weten");
+  bedrag = prompt("Vul hier in, het bedrag waar van je de btw wilt weten");
     alert(herhalingBedrag() + '\n' + alleenBTW() + '\n' + bedragEnBTW());
 };
 
 
-function runOrNot()
-{
-   if(bedrag == false){5*5}
-   else {
-       berekenBTW()
-        };
-};
-
-
 do{
-    runOrNot()
+    berekenBTW()
     }
-while(bedrag !== false)
+while(bedrag!==null)
+
+
+
