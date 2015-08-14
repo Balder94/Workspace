@@ -5,11 +5,11 @@ function herhalingBedrag() {
 };
 
 function alleenBTW() {
-    return "De btw van het bedrag: € " + Math.round((bedrag * 0.21)*100)/100;
+    return "De btw (21%) van het bedrag: € " + Math.round((bedrag * 0.21)*100)/100;
 };
 
 function bedragEnBTW() {
-    return "Het bedrag met BTW: € " + Math.round((bedrag * 1.21)*100)/100;
+    return "Het bedrag met BTW (21%): € " + Math.round((bedrag * 1.21)*100)/100;
 };
 
 
