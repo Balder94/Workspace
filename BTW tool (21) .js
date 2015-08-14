@@ -14,7 +14,7 @@ function bedragEnBTW() {
 
 
 function berekenBTW() {
-  bedrag = prompt("Vul hier in, het bedrag waar van je de btw wilt weten. " + '\n' + '\n' + "(format: 0.00 en niet 0,00)" + '\n' + '\n' + "klik op cancel/anuleren en daarna ok, als je wilt stoppen. Klik op Run(op de achtergrond) als je bent gestopt maar weer wil beginnen.");
+  bedrag = prompt("Vul hier in, het bedrag waar van je de hoge BTW (21%) wilt weten. " + '\n' + '\n' + "(format: 0.00 en niet 0,00)" + '\n' + '\n' + "klik op cancel/anuleren en daarna ok, als je wilt stoppen. Klik op Run(op de achtergrond) als je bent gestopt maar weer wil beginnen.");
     alert(herhalingBedrag() + '\n' + alleenBTW() + '\n' + bedragEnBTW());
 };
 
