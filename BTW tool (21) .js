@@ -14,7 +14,7 @@ function bedragEnBTW() {
 
 
 function berekenBTW() {
-  bedrag = prompt("Vul hier in, het bedrag waar van je de btw wilt weten. " + '\n' + "(format: 0.00 en niet 0,00)");
+  bedrag = prompt("Vul hier in, het bedrag waar van je de btw wilt weten. " + '\n' + '\n' + "(format: 0.00 en niet 0,00)");
     alert(herhalingBedrag() + '\n' + alleenBTW() + '\n' + bedragEnBTW());
 };
 
