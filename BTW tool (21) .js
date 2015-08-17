@@ -23,4 +23,5 @@ do{
     }
 while(bedrag!==null)
 
-//hosted at http://jsfiddle.net/p5c465yg/5/
+// hosted at http://jsfiddle.net/p5c465yg/5/
+// 6% hosted at http://jsfiddle.net/r4vLyaam/
