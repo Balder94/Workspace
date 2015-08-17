@@ -22,3 +22,5 @@ do{
     berekenBTW()
     }
 while(bedrag!==null)
+
+//hosted at http://jsfiddle.net/p5c465yg/5/
