@@ -1,3 +1,4 @@
+Option 1: 
 var calculation
 
 function RecieveInput() 
@@ -26,7 +27,19 @@ function Opteller()
 }
 
 Opteller()
+///////////////////////////////////////////
 
+Option 2 : 
+
+var Result
+var Input = prompt("Type in the numbers, seperated by spaces")
+alert("5".toFixed(2))
+
+for (Result=1; Result <100; Result += Input) {
+    
+}
+
+alert(Result)
 
 
 //things i want to search in google when internet comes back up
