@@ -1,14 +1,14 @@
-var bedrag
-var BTW
+var Bedrag
 var ExBTW
+var BTW
 
 function herhalingBedrag() {
-	return "Dit is het bedrag(incl.): € " + bedrag;
+	return "Dit is het bedrag(incl.): € " + Bedrag;
 };
 
 function bedragExBTW() {
-	ExBTW = (bedrag/1.21).toFixed(2);
-	return "Het bedrag exclusief BTW: € " + (Math.round(ExBTW*100)/100).toFixed(2);
+	ExBTW = (Math.round((Bedrag/1.21)*100)/100).toFixed(2);
+	return "Het bedrag exclusief BTW: € " + ExBTW;
 };
 
 function alleenBTW() {
@@ -17,7 +17,7 @@ function alleenBTW() {
 };
 
 function berekenBTW() {
-	bedrag = prompt("Vul hier in, het bedrag(inclusief) waar van je de hoge BTW (21%) wilt weten. " + '\n' + '\n' + "(gebruik punt '.' en niet komma',')" + '\n' + '\n' + "klik op cancel/anuleren en daarna ok, als je wilt stoppen. Klik op Run(op de achtergrond) als je bent gestopt maar weer wil beginnen.");
+	Bedrag = prompt("Vul hier in, het bedrag(inclusief) waar van je de hoge BTW (21%) wilt weten. " + '\n' + '\n' + "(gebruik punt '.' en niet komma',')" + '\n' + '\n' + "klik op cancel/anuleren en daarna ok, als je wilt stoppen. Klik op Run(op de achtergrond) als je bent gestopt maar weer wil beginnen.");
 	alert(herhalingBedrag() + '\n' + bedragExBTW() + '\n' + alleenBTW());
 };
 
@@ -25,7 +25,7 @@ function berekenBTW() {
 do {
 	berekenBTW()
 }
-while(bedrag!==null);
+while(Bedrag!==null);
 
 
 // 21% hosted at http://jsfiddle.net/p5c465yg/9
